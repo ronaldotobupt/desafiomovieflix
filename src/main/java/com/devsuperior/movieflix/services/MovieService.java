@@ -28,6 +28,7 @@ public class MovieService {
 	}
 	
 	
+	
 	@Transactional(readOnly = true)
 	public Page<MovieCardDTO> findAll(Pageable pageable, String genreId) {
 		
